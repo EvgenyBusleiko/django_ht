@@ -439,3 +439,367 @@ Watching for file changes with StatReloader
 "GET /about/ HTTP/1.1" 200 248
 Not Found: /about/index
 "GET /about/index HTTP/1.1" 404 3130
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 284
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2815
+"GET /about/ HTTP/1.1" 200 248
+Not Found: /about/index
+"GET /about/index HTTP/1.1" 404 2815
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /about/index
+"GET /about/index HTTP/1.1" 404 2428
+Not Found: /about/index
+"GET /about/index HTTP/1.1" 404 2428
+Not Found: /les/
+"GET /les/ HTTP/1.1" 404 2407
+Not Found: /les3
+"GET /les3 HTTP/1.1" 404 2407
+Not Found: /les3/
+"GET /les3/ HTTP/1.1" 404 2651
+"GET /les3/hello HTTP/1.1" 301 0
+"GET /les3/hello/ HTTP/1.1" 200 26
+"GET /les3/hello2 HTTP/1.1" 301 0
+"GET /les3/hello2/ HTTP/1.1" 200 23
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2377
+Not Found: /les3/post/2002/
+"GET /les3/post/2002/ HTTP/1.1" 404 3088
+"GET /les3/posts/2022/ HTTP/1.1" 200 19
+"GET /les3/posts/2022/6/ HTTP/1.1" 200 21
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les3/ HTTP/1.1" 200 171
+"GET /les3/ HTTP/1.1" 200 172
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2377
+Not Found: /index
+"GET /index HTTP/1.1" 404 2410
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2413
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /index/ HTTP/1.1" 200 284
+"GET /index/about HTTP/1.1" 301 0
+"GET /index/about/ HTTP/1.1" 200 248
+Not Found: /index/about/index
+"GET /index/about/index HTTP/1.1" 404 2956
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2920
+"GET /index HTTP/1.1" 200 284
+Not Found: /about/
+"GET /about/ HTTP/1.1" 404 2518
+"GET /index HTTP/1.1" 200 284
+"GET /index HTTP/1.1" 200 284
+Not Found: /about/
+"GET /about/ HTTP/1.1" 404 2518
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /index HTTP/1.1" 301 0
+"GET /index/ HTTP/1.1" 200 284
+"GET /index/index HTTP/1.1" 200 284
+"GET /index/about/ HTTP/1.1" 200 248
+Not Found: /index/about/index
+"GET /index/about/index HTTP/1.1" 404 2956
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+"GET /index/ HTTP/1.1" 200 285
+"GET /les3/ HTTP/1.1" 200 172
+"GET /index/about/ HTTP/1.1" 200 248
+Not Found: /index/about/index
+"GET /index/about/index HTTP/1.1" 404 2956
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+"GET /index/ HTTP/1.1" 200 293
+"GET /index/about/ HTTP/1.1" 200 248
+Not Found: /index/about/index
+"GET /index/about/index HTTP/1.1" 404 2956
+Not Found: /index/about/about
+"GET /index/about/about HTTP/1.1" 404 2956
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py", line 7, in index
+    return render(request, 'myapp/index.html',{'title:Главная страница'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET /index/ HTTP/1.1" 500 80679
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py", line 7, in index
+    return render(request, 'myapp/index.html',{'title:Главная страница'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET /index/ HTTP/1.1" 500 80679
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py", line 7, in index
+    return render(request, 'myapps/index.html',{'title:Главная страница'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapps/index.html
+"GET /index/ HTTP/1.1" 500 80841
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py", line 7, in index
+    return render(request, 'myapps/index.html',{'title:Главная страница'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapps/index.html
+"GET /index/ HTTP/1.1" 500 80704
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py", line 7, in index
+    return render(request, 'myapps/index.html',{'title:Главная страница'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapps/index.html
+"GET /index/ HTTP/1.1" 500 80841
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py", line 7, in index
+    return render(request, 'myapps/index.html',{'title:Главная страница'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapps/index.html
+"GET /index/ HTTP/1.1" 500 80841
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2741
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py", line 7, in index
+    return render(request, 'myapps/index.html',{'title:Главная страница'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapps/index.html
+"GET / HTTP/1.1" 500 80632
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py", line 7, in index
+    return render(request, 'myapps/index.html',{'title:Главная страница'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+              ^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\context.py", line 286, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than set.
+"GET / HTTP/1.1" 500 81384
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2741
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2741
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2741
+"GET / HTTP/1.1" 200 243
+"GET /about/ HTTP/1.1" 200 215
+"GET / HTTP/1.1" 200 243
+"GET /about/ HTTP/1.1" 200 215
+"GET / HTTP/1.1" 200 243
+"GET /about/ HTTP/1.1" 200 215
+"GET / HTTP/1.1" 200 243
+"GET / HTTP/1.1" 200 243
+"GET / HTTP/1.1" 200 243
+"GET /about/ HTTP/1.1" 200 215
+"GET / HTTP/1.1" 200 243
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\dice\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 243
+Not Found: /dice/result
+"GET /dice/result HTTP/1.1" 404 3191
+"GET /dice/dice HTTP/1.1" 301 0
+3
+"GET /dice/dice/ HTTP/1.1" 200 267
+2
+"GET /dice/dice/ HTTP/1.1" 200 267
+Not Found: /dice/coin/
+"GET /dice/coin/ HTTP/1.1" 404 3188
+Head
+"GET /dice/coin/5 HTTP/1.1" 200 270
+Not Found: /dice/hudred
+"GET /dice/hudred HTTP/1.1" 404 3191
+"GET /dice/hundred HTTP/1.1" 301 0
+4
+"GET /dice/hundred/ HTTP/1.1" 200 267
+18
+"GET /dice/hundred/ HTTP/1.1" 200 268
+71
+"GET /dice/hundred/ HTTP/1.1" 200 268
+68
+"GET /dice/hundred/ HTTP/1.1" 200 268
+85
+"GET /dice/hundred/ HTTP/1.1" 200 268
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\dice\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\dice\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\dice\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\dice\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /dice/hundred/
+"GET /dice/hundred/ HTTP/1.1" 404 3244
+"GET /dice/hundred/8 HTTP/1.1" 200 233
+Not Found: /dice/
+"GET /dice/ HTTP/1.1" 404 3220
+"GET /dice/coin/5 HTTP/1.1" 200 233
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\dice\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dice/coin/5 HTTP/1.1" 200 502
+"GET /dice/hundred/100 HTTP/1.1" 200 5248
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\dice\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dice/hundred/100 HTTP/1.1" 200 5342
+"GET /dice/dice/10 HTTP/1.1" 200 729
+"GET /dice/dice/10 HTTP/1.1" 200 708
+Not Found: /dice/hundred/
+"GET /dice/hundred/ HTTP/1.1" 404 3244
+"GET /dice/hundred/48 HTTP/1.1" 200 2686
+"GET /dice/coin/10 HTTP/1.1" 200 752
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader

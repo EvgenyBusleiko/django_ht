@@ -48,3 +48,44 @@ class Post(models.Model):
 
     def __str__(self):
         return f'Title is {self.title}'
+
+
+class User_ht(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.EmailField()
+    phone = models.CharField(max_length=11)
+    address = models.CharField(max_length=100)
+    reg_date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f'Username: {self.name}, email: {self.email}, phone:{self.phone}, addres:{self.address}, reg_date:{self.reg_date}'
+
+
+class Product_ht(models.Model):
+    name = models.CharField(max_length=100)
+    price = models.DecimalField(max_digits=8, decimal_places=2)
+    description = models.TextField()
+    quantity = models.IntegerField(max_length=8)
+    date_created = models.DateTimeField(auto_now_add=True)
+
+    # image = models.ImageField(upload_to='products/')
+
+    def __str__(self):
+        return f'name: {self.name}, price: {self.price}, description:{self.description},  quantity:{self.quantity}, date_created:{self.date_created}'
+
+
+class Order_ht(models.Model):
+    customer = models.ForeignKey(User_ht, on_delete=models.CASCADE)
+    total_price = models.DecimalField(max_digits=8, decimal_places=2,default=0)
+    date_ordered = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f'customer: {self.customer},  total_price:{self.total_price}, date_ordered:{self.date_ordered}'
+
+class order_ht_product_ht(models.Model):
+    order = models.ForeignKey(Order_ht, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product_ht, on_delete=models.CASCADE)
+    quantity = models.IntegerField(max_length=8)
+    date_created = models.DateTimeField(auto_now_add=True)
+    def __str__(self):
+        return f'product: {self.product},  quantity:{self.quantity}, date_created:{self.date_created}'

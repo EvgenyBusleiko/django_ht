@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title%} {{ title }} {% endblock %}
+
+{% block content%}
+<h1>{{title}}</h1>
+<p>
+    {%for res in results%}
+    <p>Результат равен {{res}}</p>
+
+
+    {%endfor%}
+
+
+    <a href="{% url 'about' %}">О нас</a>
+</p>
+{% endblock %}

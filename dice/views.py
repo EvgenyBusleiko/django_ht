@@ -8,30 +8,29 @@ logger = logging.getLogger(__name__)
 
 
 def coin(request, amount_flips):
-    result = choice(('Head', 'Tails'))
-    logger.info(result)
-    CoinFlip(side=result).save()
-    last_results = CoinFlip.get_last_flips(amount_flips)
+
+    # logger.info(result)
+    #
+    results = [choice(('Head', 'Tails')) for _ in range(amount_flips)]
     context = {
-        'current_flip': result,
-        'last_results': last_results
+        'title': 'Монетка',
+        'results': results
     }
-    return render(request, 'coin.html', context)
+    return render(request, 'dice/result.html', context)
 
 
-def dice(request):
-    count = randint(1, 6)
-    logger.debug(count)
+def dice(request, amount_flips):
+    results = [randint(1, 6) for _ in range(amount_flips)]
 
-    return HttpResponse(f'{count}')
-
-
-def hundred(request):
-    count = randint(1, 100)
-    logger.debug(count)
-    return HttpResponse(f'{count}')
+    # logger.debug(count)
+    context = {'title': 'Кости', 'results': results}
+    return render(request, 'dice/result.html', context)
 
 
-
+def hundred(request, amount_gens):
+    results = [randint(1, 100) for _ in range(amount_gens)]
+    # logger.debug(count)
+    context = {'title': 'Волшебная сотня', 'results': results}
+    return render(request, 'dice/result.html', context)
 
 # Create your views here.
