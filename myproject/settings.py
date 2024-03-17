@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp', 'dice','myapp2','myapp3',
+    'myapp', 'dice','myapp2','myapp3','myapp4',
 ]
 
 LOGGING = {
@@ -64,6 +64,11 @@ LOGGING = {
         },
         'dice': {
             'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'myapp4': {
+            'handlers': ['console'],
             'level': 'DEBUG',
             'propagate': True,
         },
@@ -143,6 +148,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

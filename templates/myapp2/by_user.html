@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Товары в заказах {{ user_ht}} {% endblock %}
+{% block content %}
+
+<p>Товары в заказах пользователя {{ user_ht}} за последние {{ days }} дней</p>
+
+    {% for pr in product %}
+
+
+     <p>{{pr}}</p>
+
+    {% endfor %}
+
+
+{% endblock %}

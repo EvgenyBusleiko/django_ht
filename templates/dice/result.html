@@ -4,6 +4,11 @@
 
 {% block content%}
 <h1>{{title}}</h1>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Отправить">
+</form>
 <p>
     {%for res in results%}
     <p>Результат равен {{res}}</p>

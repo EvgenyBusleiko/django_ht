@@ -3,6 +3,7 @@ from random import randint, choice
 import logging
 from .models import CoinFlip
 from django.shortcuts import render
+from .forms import DiceForm
 
 logger = logging.getLogger(__name__)
 
@@ -33,4 +34,18 @@ def hundred(request, amount_gens):
     context = {'title': 'Волшебная сотня', 'results': results}
     return render(request, 'dice/result.html', context)
 
-# Create your views here.
+def result(request):
+
+    func={"Coin": coin, "Dice": dice, "Hundred": hundred}
+
+    if request.method == 'POST':
+        form = DiceForm(request.POST)
+        if form.is_valid():
+            method = form.cleaned_data['method']
+            count = form.cleaned_data['count']
+        #METHOD_CHOICES = (('Coin', 'Монета'), ('Dice', 'Кубик'), ('Hunnred', 'Случайное число до 100'))
+            return func[method](request, count)
+    else:
+        form = DiceForm()
+    return render(request, 'dice/result.html', {'form':form})
+
