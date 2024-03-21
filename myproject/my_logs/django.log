@@ -3047,3 +3047,1875 @@ Not Found: /myapp2/by_user/28/-20/
 "GET /myapp2/by_user/28/30/ HTTP/1.1" 200 285
 "GET /myapp2/by_user/28/7/ HTTP/1.1" 200 284
 "GET /myapp2/by_user/28/5/ HTTP/1.1" 200 386
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 243
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+Watching for file changes with StatReloader
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5944
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/auth/user/ HTTP/1.1" 200 11917
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 26222
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /admin/auth/group/add/ HTTP/1.1" 200 15361
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 9518
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/ HTTP/1.1" 200 12722
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25967
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12942
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25976
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7066
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25976
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/password/ HTTP/1.1" 200 7978
+"POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 26125
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12942
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7806
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25976
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/password/ HTTP/1.1" 200 7978
+"POST /admin/auth/user/2/password/ HTTP/1.1" 200 8225
+"POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 26125
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12942
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4626
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 8546
+"GET /admin/auth/user/ HTTP/1.1" 200 12722
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25976
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/password/ HTTP/1.1" 200 7978
+"POST /admin/auth/user/2/password/ HTTP/1.1" 200 8194
+"POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 26125
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12942
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9286
+"GET /admin/auth/user/ HTTP/1.1" 200 12722
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25976
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/password/ HTTP/1.1" 200 7978
+"POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 26125
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/delete/ HTTP/1.1" 200 7648
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25976
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9656
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25976
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/delete/ HTTP/1.1" 200 7648
+"POST /admin/auth/user/2/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12400
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 26263
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12942
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 10763
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 11878
+"GET /admin/myapp2/post/ HTTP/1.1" 200 44567
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/100/change/ HTTP/1.1" 200 15175
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/category/ HTTP/1.1" 200 9108
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/category/add/ HTTP/1.1" 200 9949
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+"GET /admin/myapp5/category/add/ HTTP/1.1" 200 10239
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+"GET /admin/myapp5/category/ HTTP/1.1" 200 11175
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/add/ HTTP/1.1" 200 11818
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+"GET /admin/myapp5/product/add/ HTTP/1.1" 200 12099
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+"GET /admin/myapp5/product/ HTTP/1.1" 200 11162
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/add/ HTTP/1.1" 200 11818
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4444
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 403
+"GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+"POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+"GET /admin/myapp5/product/ HTTP/1.1" 200 11488
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/ HTTP/1.1" 200 11278
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/add/ HTTP/1.1" 200 11863
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+"GET /admin/myapp5/product/ HTTP/1.1" 200 11836
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 12079
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 9155
+"POST /admin/myapp5/product/1/delete/ HTTP/1.1" 302 0
+"GET /admin/myapp5/product/ HTTP/1.1" 200 11456
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/myapp5/product/ HTTP/1.1" 200 11294
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14635
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp5/product/4/change/ HTTP/1.1" 302 0
+"GET /admin/myapp5/product/ HTTP/1.1" 200 11512
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp5/product/ HTTP/1.1" 200 11833
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 12241
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?o=2.1 HTTP/1.1" 200 12731
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?o=3.2.1 HTTP/1.1" 200 13144
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 12731
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?o=3 HTTP/1.1" 200 12241
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?o= HTTP/1.1" 200 11933
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp5/product/ HTTP/1.1" 200 12623
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp5/product/ HTTP/1.1" 200 14079
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?date_added__gte=2024-03-11+00%3A00%3A00%2B00%3A00&date_added__lt=2024-03-19+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 15935
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?date_added__gte=2024-03-01+00%3A00%3A00%2B00%3A00&date_added__lt=2024-04-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 15935
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?date_added__gte=2024-01-01+00%3A00%3A00%2B00%3A00&date_added__lt=2025-01-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 15935
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?date_added__gte=2024-03-18+00%3A00%3A00%2B00%3A00&date_added__lt=2024-03-19+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 15935
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?date_added__gte=2024-03-18+00%3A00%3A00%2B00%3A00&date_added__lt=2024-03-19+00%3A00%3A00%2B00%3A00&price=200.00 HTTP/1.1" 200 15062
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?date_added__gte=2024-03-18+00%3A00%3A00%2B00%3A00&date_added__lt=2024-03-19+00%3A00%3A00%2B00%3A00&price=999999.99 HTTP/1.1" 200 15685
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?date_added__gte=2024-03-18+00%3A00%3A00%2B00%3A00&date_added__lt=2024-03-19+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 15935
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/? HTTP/1.1" 200 14079
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp5/product/? HTTP/1.1" 200 14587
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?q=%D1%82%D0%B2%D0%BE HTTP/1.1" 200 12077
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/ HTTP/1.1" 200 14587
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 14611
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp5/product/3/change/ HTTP/1.1" 302 0
+"GET /admin/myapp5/product/ HTTP/1.1" 200 14799
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81 HTTP/1.1" 200 14467
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81 HTTP/1.1" 200 14467
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81 HTTP/1.1" 200 14560
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/ HTTP/1.1" 200 14680
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp5/product/ HTTP/1.1" 302 0
+"GET /admin/myapp5/product/ HTTP/1.1" 200 14679
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14632
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 13852
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/ HTTP/1.1" 200 14679
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 13844
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp5\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp5/product/ HTTP/1.1" 200 14679
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15757
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 243
+"GET /admin/ HTTP/1.1" 200 11791
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 11791
+"GET /admin/auth/user/ HTTP/1.1" 200 14416
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 28220
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/3/password/ HTTP/1.1" 200 9672
+"POST /admin/auth/user/3/password/ HTTP/1.1" 302 0
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 28369
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 11798
+"GET /admin/auth/user/ HTTP/1.1" 200 14416
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 28220
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/ HTTP/1.1" 200 10999
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/1/change/ HTTP/1.1" 200 17853
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/ HTTP/1.1" 200 14416
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 28220
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14636
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/ HTTP/1.1" 200 5838
+"GET /admin/auth/user/ HTTP/1.1" 200 14416
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/auth/user/ HTTP/1.1" 200 14711
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/user/ HTTP/1.1" 200 12170
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /admin/myapp2/user/
+"GET /admin/myapp2/user/ HTTP/1.1" 404 4852
+"GET /admin/ HTTP/1.1" 200 11376
+"GET /admin/myapp2/author/ HTTP/1.1" 200 22216
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?q=1 HTTP/1.1" 200 15315
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?q= HTTP/1.1" 200 22627
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp2/author/?q= HTTP/1.1" 302 0
+"GET /admin/myapp2/author/?q= HTTP/1.1" 200 22780
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/10/change/?_changelist_filters=q%3D HTTP/1.1" 200 12790
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?q= HTTP/1.1" 200 22628
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp2/author/?q= HTTP/1.1" 200 22923
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/ HTTP/1.1" 200 275991
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp2/post/ HTTP/1.1" 200 268921
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Internal Server Error: /admin/myapp2/post/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1985, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 864, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\views\main.py", line 144, in __init__
+    self.queryset = self.get_queryset(request)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\views\main.py", line 577, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1187, in get_search_results
+    queryset = queryset.filter(models.Q.create(term_queries))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1383, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1427, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'icontains' for ForeignKey or join on the field not permitted.
+"GET /admin/myapp2/post/?q=2 HTTP/1.1" 500 202205
+"GET /admin/myapp2/post/ HTTP/1.1" 200 268921
+"GET /admin/myapp2/author/?q= HTTP/1.1" 200 22853
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp2/author/?q=2 HTTP/1.1" 200 14665
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?q=2 HTTP/1.1" 200 14665
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?q=3 HTTP/1.1" 200 14665
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?q= HTTP/1.1" 200 22853
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?name=Name10&q= HTTP/1.1" 200 14984
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?name=Name5&q= HTTP/1.1" 200 14966
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?name=Name4&q= HTTP/1.1" 200 14966
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?name=Name5&q= HTTP/1.1" 200 14966
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?q= HTTP/1.1" 200 22853
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?date_of_birth__gte=2024-03-18+00%3A00%3A00%2B00%3A00&date_of_birth__lt=2024-03-19+00%3A00%3A00%2B00%3A00&q= HTTP/1.1" 200 14512
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?date_of_birth__gte=2024-03-11+00%3A00%3A00%2B00%3A00&date_of_birth__lt=2024-03-19+00%3A00%3A00%2B00%3A00&q= HTTP/1.1" 200 14512
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/author/?date_of_birth__gte=2024-03-01+00%3A00%3A00%2B00%3A00&date_of_birth__lt=2024-04-01+00%3A00%3A00%2B00%3A00&q= HTTP/1.1" 200 26290
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/ HTTP/1.1" 200 268921
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/?q=2 HTTP/1.1" 200 63000
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/?date__gte=2024-03-18+00%3A00%3A00%2B00%3A00&date__lt=2024-03-19+00%3A00%3A00%2B00%3A00&q=2 HTTP/1.1" 200 14733
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/?date__gte=2024-03-11+00%3A00%3A00%2B00%3A00&date__lt=2024-03-19+00%3A00%3A00%2B00%3A00&q=2 HTTP/1.1" 200 14733
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/?date__gte=2024-03-01+00%3A00%3A00%2B00%3A00&date__lt=2024-04-01+00%3A00%3A00%2B00%3A00&q=2 HTTP/1.1" 200 67272
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/?author__id__exact=10&date__gte=2024-03-01+00%3A00%3A00%2B00%3A00&date__lt=2024-04-01+00%3A00%3A00%2B00%3A00&q=2 HTTP/1.1" 200 19318
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/?author__id__exact=10&date__gte=2024-03-01+00%3A00%3A00%2B00%3A00&date__lt=2024-04-01+00%3A00%3A00%2B00%3A00&q=2 HTTP/1.1" 200 19318
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/92/change/?_changelist_filters=author__id__exact%3D10%26date__gte%3D2024-03-01%2B00%253A00%253A00%252B00%253A00%26date__lt%3D2024-04-01%2B00%253A00%253A00%252B00%253A00%26q%3D2 HTTP/1.1" 200 15514
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp2/post/92/change/?_changelist_filters=author__id__exact%3D10%26date__gte%3D2024-03-01%2B00%253A00%253A00%252B00%253A00%26date__lt%3D2024-04-01%2B00%253A00%253A00%252B00%253A00%26q%3D2 HTTP/1.1" 200 15514
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp2/post/ HTTP/1.1" 200 259441
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 243
+Not Found: /myapp2/product_ht_form
+"GET /myapp2/product_ht_form HTTP/1.1" 404 3706
+"GET /myapp2/add_product/ HTTP/1.1" 200 1052
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /myapp2/add_product/ HTTP/1.1" 200 1328
+"GET /myapp2/add_product/ HTTP/1.1" 200 1329
+Internal Server Error: /myapp2/add_product/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp2.views.product_form_ht didn't return an HttpResponse object. It returned None instead.
+"POST /myapp2/add_product/ HTTP/1.1" 500 68167
+Watching for file changes with StatReloader
+"GET /myapp2/add_product/ HTTP/1.1" 200 1359
+Internal Server Error: /myapp2/add_product/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp2.views.product_form_ht didn't return an HttpResponse object. It returned None instead.
+"POST /myapp2/add_product/ HTTP/1.1" 500 68394
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /myapp2/add_product/ HTTP/1.1" 200 1359
+"POST /myapp2/add_product/ HTTP/1.1" 200 1608
+"POST /myapp2/add_product/ HTTP/1.1" 200 1608
+"POST /myapp2/add_product/ HTTP/1.1" 200 1608
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/add_product/ HTTP/1.1" 200 1608
+"POST /myapp2/add_product/ HTTP/1.1" 200 1608
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /myapp2/add_product/ HTTP/1.1" 200 1359
+"POST /myapp2/add_product/ HTTP/1.1" 200 1518
+"POST /myapp2/add_product/ HTTP/1.1" 200 1534
+"POST /myapp2/add_product/ HTTP/1.1" 200 1534
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/add_product/ HTTP/1.1" 200 1534
+"POST /myapp2/add_product/ HTTP/1.1" 200 1534
+"GET /myapp2/add_product/ HTTP/1.1" 200 1349
+"POST /myapp2/add_product/ HTTP/1.1" 200 1507
+"POST /myapp2/add_product/ HTTP/1.1" 200 1533
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 243
+Not Found: /add_shooter/
+"GET /add_shooter/ HTTP/1.1" 404 2971
+Not Found: /myapp2/add_shooter/
+"GET /myapp2/add_shooter/ HTTP/1.1" 404 4074
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shooter.html, myapp2/shooter_list.html
+"GET /myapp2/shooter/ HTTP/1.1" 500 85778
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shooter.html, myapp2/shooter_list.html
+"GET /myapp2/shooter/ HTTP/1.1" 500 85915
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 243
+"GET /myapp2/shooter/ HTTP/1.1" 200 282
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 68, in image_upload_view
+    return render(request, 'shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shooter.html
+"GET /myapp2/shooter/ HTTP/1.1" 500 83077
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /myapp2/shooter/ HTTP/1.1" 200 554
+"POST /myapp2/shooter/ HTTP/1.1" 200 695
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 695
+"POST /myapp2/shooter/ HTTP/1.1" 200 695
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 674
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table myapp2_shooter has no column named image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 62, in image_upload_view
+    form.save()
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 552, in save
+    self.instance.save()
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table myapp2_shooter has no column named image
+"POST /myapp2/shooter/ HTTP/1.1" 500 151664
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 843
+Not Found: /media/media/Отчет_по_образцу_Экселя_okeyMRT.jpg
+"GET /media/media/%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D0%BE_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%83_%D0%AD%D0%BA%D1%81%D0%B5%D0%BB%D1%8F_okeyMRT.jpg HTTP/1.1" 404 3216
+"POST /myapp2/shooter/ HTTP/1.1" 200 752
+Not Found: /media/media/262b2d753538492116ec7096285e4934_qEuxriG.png
+"GET /media/media/262b2d753538492116ec7096285e4934_qEuxriG.png HTTP/1.1" 404 3103
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'myfile1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 64, in image_upload_view
+    file = request.FILES['myfile1']
+           ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'myfile1'
+"POST /myapp2/shooter/ HTTP/1.1" 500 75747
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 594
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 61, in image_upload_view
+    form = ShoterForm(request.POST, request.FILES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+"POST /myapp2/shooter/ HTTP/1.1" 500 73414
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 63, in image_upload_view
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'ShoterForm' object has no attribute 'save'
+"POST /myapp2/shooter/ HTTP/1.1" 500 67175
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 69, in image_upload_view
+    fs.save(filename, image)
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\files\storage\base.py", line 38, in save
+    name = self._save(name, content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\files\storage\filesystem.py", line 106, in _save
+    fd = os.open(full_path, self.OS_OPEN_FLAGS, 0o666)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\busle\\PycharmProjects\\pythonProject3\\myproject\\media\\Евгений Буслейко+2024-03-20 22:26:13.488221'
+"POST /myapp2/shooter/ HTTP/1.1" 500 77930
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 68, in image_upload_view
+    filename = f'{title}+{datetime.date()}'
+                          ^^^^^^^^^^^^^^^
+TypeError: unbound method datetime.date() needs an argument
+"POST /myapp2/shooter/ HTTP/1.1" 500 67993
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 594
+"POST /myapp2/shooter/ HTTP/1.1" 200 594
+"POST /myapp2/shooter/ HTTP/1.1" 200 594
+"POST /myapp2/shooter/ HTTP/1.1" 200 594
+"GET /myapp2/shooter/ HTTP/1.1" 200 554
+"GET /myapp2/shooter/ HTTP/1.1" 200 554
+"GET /myapp2/shooter/ HTTP/1.1" 200 554
+"GET /myapp2/shooter/ HTTP/1.1" 200 554
+"GET /myapp2/shooter/ HTTP/1.1" 200 554
+"GET /myapp2/shooter/ HTTP/1.1" 200 661
+"GET /myapp2/shooter/ HTTP/1.1" 200 557
+"POST /myapp2/shooter/ HTTP/1.1" 200 910
+Not Found: /media/Евгений Буслейко+2024-03-20
+"GET /media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3141
+"POST /myapp2/shooter/ HTTP/1.1" 200 915
+Not Found: /media//media/Евгений Буслейко+2024-03-20
+"GET /media//media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3162
+"POST /myapp2/shooter/ HTTP/1.1" 200 915
+Not Found: /media//media/Евгений Буслейко+2024-03-20
+"GET /media//media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3162
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 68, in image_upload_view
+    print(form.image)
+          ^^^^^^^^^^
+AttributeError: 'ShoterForm' object has no attribute 'image'
+"POST /myapp2/shooter/ HTTP/1.1" 500 67963
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 68, in image_upload_view
+    extention=image.split('.')[1]
+              ^^^^^^^^^^^
+AttributeError: 'InMemoryUploadedFile' object has no attribute 'split'
+"POST /myapp2/shooter/ HTTP/1.1" 500 68072
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 914
+Not Found: /media/media/Евгений Буслейко+2024-03-20
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%2B2024-03-20 HTTP/1.1" 404 3159
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 915
+Not Found: /media/media/Евгений Буслейко2024-03-20.jpg
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE2024-03-20.jpg HTTP/1.1" 404 3168
+"POST /myapp2/shooter/ HTTP/1.1" 200 915
+Not Found: /media/media/Евгений Буслейко2024-03-20.jpg
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE2024-03-20.jpg HTTP/1.1" 404 3168
+"POST /myapp2/shooter/ HTTP/1.1" 200 1018
+Not Found: /media/media/Евгений Буслейко2024-03-20.jpg
+"GET /media/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE2024-03-20.jpg HTTP/1.1" 404 3168
+"GET /myapp2/shooter/ HTTP/1.1" 200 555
+"POST /myapp2/shooter/ HTTP/1.1" 200 1012
+Not Found: /media/Евгений Буслейко2024-03-20.jpg
+"GET /media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE2024-03-20.jpg HTTP/1.1" 404 3150
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 63, in image_upload_view
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'ShoterForm' object has no attribute 'save'
+"POST /myapp2/shooter/ HTTP/1.1" 500 67133
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 63, in image_upload_view
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'ShoterForm' object has no attribute 'save'
+"POST /myapp2/shooter/ HTTP/1.1" 500 67140
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 1012
+Not Found: /media/Евгений Буслейко2024-03-21.jpg
+"GET /media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE2024-03-21.jpg HTTP/1.1" 404 3150
+"GET /myapp2/shooter/ HTTP/1.1" 200 555
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2968
+"POST /myapp2/shooter/ HTTP/1.1" 200 864
+Not Found: /media/Evgeny Busleiko2024-03-21.png
+"GET /media/Evgeny%20Busleiko2024-03-21.png HTTP/1.1" 404 3042
+"POST /myapp2/shooter/ HTTP/1.1" 200 988
+Not Found: /media/Евгений Буслейко2024-03-21.png
+"GET /media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE2024-03-21.png HTTP/1.1" 404 3150
+"GET /myapp2/shooter/ HTTP/1.1" 200 555
+"POST /myapp2/shooter/ HTTP/1.1" 200 827
+Not Found: /media/andrey2024-03-21.png
+"GET /media/andrey2024-03-21.png HTTP/1.1" 404 3013
+"POST /myapp2/shooter/ HTTP/1.1" 200 871
+Not Found: /media/Евгений Буслейко2024-03-21.png
+"GET /media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE2024-03-21.png HTTP/1.1" 404 3150
+"POST /myapp2/shooter/ HTTP/1.1" 200 734
+Not Found: /media/andrey2024-03-21.jpg
+"GET /media/andrey2024-03-21.jpg HTTP/1.1" 404 3013
+Not Found: /media/andrey2024-03-21.jpg
+"GET /media/andrey2024-03-21.jpg HTTP/1.1" 404 3013
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 871
+Not Found: /media/Евгений Буслейко2024-03-21.jpg
+"GET /media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE2024-03-21.jpg HTTP/1.1" 404 3150
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 73, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form, 'file_url': file_url})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\context.py", line 254, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+"POST /myapp2/shooter/ HTTP/1.1" 500 97427
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 73, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form, 'file_url': file_url})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\context.py", line 254, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+"POST /myapp2/shooter/ HTTP/1.1" 500 97427
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 12484
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+"GET /__debug__/render_panel/?store_id=cbd1bdc0a5e24ab782adcc2c8336d817&panel_id=HistoryPanel HTTP/1.1" 200 2505
+"GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+"GET /__debug__/render_panel/?store_id=cbd1bdc0a5e24ab782adcc2c8336d817&panel_id=VersionsPanel HTTP/1.1" 200 760
+"GET /__debug__/render_panel/?store_id=cbd1bdc0a5e24ab782adcc2c8336d817&panel_id=SettingsPanel HTTP/1.1" 200 26819
+"GET /__debug__/render_panel/?store_id=cbd1bdc0a5e24ab782adcc2c8336d817&panel_id=HeadersPanel HTTP/1.1" 200 5203
+Not Found: /
+"GET / HTTP/1.1" 404 12484
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/shooter/ HTTP/1.1" 500 104372
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+Not Found: /myapp2/
+"GET /myapp2/ HTTP/1.1" 404 13593
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/shooter/ HTTP/1.1" 500 104371
+Internal Server Error: /myapp2/by_user/35/1/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 19, in products_ordered_by_user
+    date = datetime.now() - timedelta(days=q_day)
+           ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+"GET /myapp2/by_user/35/1/ HTTP/1.1" 500 76451
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/add_product/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 55, in product_form_ht
+    return render(request, 'myapp2/product_ht_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/add_product/ HTTP/1.1" 500 104768
+Watching for file changes with StatReloader
+Not Found: /les6/
+"GET /les6/ HTTP/1.1" 404 13036
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+Internal Server Error: /les6/db/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp6\views.py", line 13, in total_in_db
+    return render(request, 'myapp6/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /les6/db/ HTTP/1.1" 500 104810
+"GET /les6/db HTTP/1.1" 200 10857
+"GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+Internal Server Error: /les6/db/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp6\views.py", line 13, in total_in_db
+    return render(request, 'myapp6/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /les6/db/ HTTP/1.1" 500 105691
+"GET /__debug__/render_panel/?store_id=d2a5efabc5644132ac46becf27955abb&panel_id=HistoryPanel HTTP/1.1" 200 7435
+"GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /les6/db/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\messages\middleware.py", line 12, in process_request
+    request._messages = default_storage(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\messages\storage\__init__.py", line 12, in default_storage
+    return import_string(settings.MESSAGE_STORAGE)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\messages\storage\fallback.py", line 17, in __init__
+    storage_class(*args, **kwargs) for storage_class in self.storage_classes
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\messages\storage\cookie.py", line 92, in __init__
+    self.signer = signing.get_cookie_signer(salt=self.key_salt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\signing.py", line 114, in get_cookie_signer
+    key=_cookie_signer_key(settings.SECRET_KEY),
+                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\conf\__init__.py", line 98, in __getattr__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+"GET /les6/db/ HTTP/1.1" 500 145
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\messages\middleware.py", line 12, in process_request
+    request._messages = default_storage(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\messages\storage\__init__.py", line 12, in default_storage
+    return import_string(settings.MESSAGE_STORAGE)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\messages\storage\fallback.py", line 17, in __init__
+    storage_class(*args, **kwargs) for storage_class in self.storage_classes
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\messages\storage\cookie.py", line 92, in __init__
+    self.signer = signing.get_cookie_signer(salt=self.key_salt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\signing.py", line 114, in get_cookie_signer
+    key=_cookie_signer_key(settings.SECRET_KEY),
+                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\conf\__init__.py", line 98, in __getattr__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+"GET /myapp2/shooter/ HTTP/1.1" 500 145
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Session data corrupted
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET /myapp2/shooter/ HTTP/1.1" 500 129834
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Session data corrupted
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/shooter/ HTTP/1.1" 500 105249
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Session data corrupted
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/shooter/ HTTP/1.1" 500 105249
+Watching for file changes with StatReloader
+Session data corrupted
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/shooter/ HTTP/1.1" 500 105332
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/shooter/ HTTP/1.1" 500 145
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/shooter/ HTTP/1.1" 500 145
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/shooter/ HTTP/1.1" 500 145
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/shooter/ HTTP/1.1" 500 145
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 76, in image_upload_view
+    return render(request, 'myapp2/shooter.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\panels\templates\panel.py", line 44, in _request_context_bind_template
+    name = f"{processor.__module__}.{processor.__name__}"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.contrib.staticfiles' has no attribute '__module__'
+"GET /myapp2/shooter/ HTTP/1.1" 500 145
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /myapp2/shooter/ HTTP/1.1" 200 555
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 70, in image_upload_view
+    filename = f'{title}{datetime.date.today()}.{extention}'
+                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'method_descriptor' object has no attribute 'today'
+"POST /myapp2/shooter/ HTTP/1.1" 500 145
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 70, in image_upload_view
+    filename = f'{title}{datetime.datetime.now()}.{extention}'
+                         ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+"POST /myapp2/shooter/ HTTP/1.1" 500 145
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 71, in image_upload_view
+    fs.save(filename, image)
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\files\storage\base.py", line 38, in save
+    name = self._save(name, content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\files\storage\filesystem.py", line 106, in _save
+    fd = os.open(full_path, self.OS_OPEN_FLAGS, 0o666)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\busle\\PycharmProjects\\pythonProject3\\myproject\\media\\Ivan Ivanov2024-03-21 20:47:03.535986.jpg'
+"POST /myapp2/shooter/ HTTP/1.1" 500 145
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 71, in image_upload_view
+    fs.save(filename, image)
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\files\storage\base.py", line 38, in save
+    name = self._save(name, content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\files\storage\filesystem.py", line 106, in _save
+    fd = os.open(full_path, self.OS_OPEN_FLAGS, 0o666)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\busle\\PycharmProjects\\pythonProject3\\myproject\\media\\Ivan Ivanov2024-03-21 20:48:11.636969.jpg'
+"POST /myapp2/shooter/ HTTP/1.1" 500 145
+Internal Server Error: /myapp2/shooter/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py", line 71, in image_upload_view
+    fs.save(filename, image)
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\files\storage\base.py", line 38, in save
+    name = self._save(name, content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\files\storage\filesystem.py", line 106, in _save
+    fd = os.open(full_path, self.OS_OPEN_FLAGS, 0o666)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\busle\\PycharmProjects\\pythonProject3\\myproject\\media\\Ivan Ivanov2024-03-21 20:48:17.503526.jpg'
+"POST /myapp2/shooter/ HTTP/1.1" 500 145
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 751
+Not Found: /media/Ivan Ivanov2024-03-21.jpg
+"GET /media/Ivan%20Ivanov2024-03-21.jpg HTTP/1.1" 404 179
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /myapp2/shooter/ HTTP/1.1" 200 555
+"POST /myapp2/shooter/ HTTP/1.1" 200 749
+Not Found: /media/Petr_Petrov2024-03-21.png
+"GET /media/Petr_Petrov2024-03-21.png HTTP/1.1" 404 179
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 749
+Not Found: /media/Petr_Petrov2024-03-21.jpg
+"GET /media/Petr_Petrov2024-03-21.jpg HTTP/1.1" 404 179
+"POST /myapp2/shooter/ HTTP/1.1" 200 749
+Not Found: /media/Petr_Petrov2024-03-21.jpg
+"GET /media/Petr_Petrov2024-03-21.jpg HTTP/1.1" 404 179
+"POST /myapp2/shooter/ HTTP/1.1" 200 752
+Not Found: /media/Petr_Petrov12024-03-21.jpg
+"GET /media/Petr_Petrov12024-03-21.jpg HTTP/1.1" 404 179
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 752
+Not Found: /media/Petr_Petrov12024-03-21.jpg
+"GET /media/Petr_Petrov12024-03-21.jpg HTTP/1.1" 404 179
+"POST /myapp2/shooter/ HTTP/1.1" 200 752
+Not Found: /media/Petr_Petrov22024-03-21.png
+"GET /media/Petr_Petrov22024-03-21.png HTTP/1.1" 404 179
+Not Found: /media/Petr_Petrov22024-03-21.png
+"GET /media/Petr_Petrov22024-03-21.png HTTP/1.1" 404 179
+Not Found: /media/Petr_Petrov22024-03-21.png
+"GET /media/Petr_Petrov22024-03-21.png HTTP/1.1" 404 179
+"POST /myapp2/shooter/ HTTP/1.1" 200 752
+Not Found: /media/Petr_Petrov22024-03-21.png
+"GET /media/Petr_Petrov22024-03-21.png HTTP/1.1" 404 179
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myapp2\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 752
+Not Found: /media/Petr_Petrov32024-03-21.png
+"GET /media/Petr_Petrov32024-03-21.png HTTP/1.1" 404 179
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 752
+Not Found: /media/Petr_Petrov32024-03-21.jpg
+"GET /media/Petr_Petrov32024-03-21.jpg HTTP/1.1" 404 179
+"POST /myapp2/shooter/ HTTP/1.1" 200 752
+Not Found: /media/Petr_Petrov42024-03-21.jpg
+"GET /media/Petr_Petrov42024-03-21.jpg HTTP/1.1" 404 179
+"POST /myapp2/shooter/ HTTP/1.1" 200 752
+Not Found: /media/Petr_Petrov42024-03-21.jpg
+"GET /media/Petr_Petrov42024-03-21.jpg HTTP/1.1" 404 179
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /myapp2/shooter/ HTTP/1.1" 200 752
+Not Found: /media/Petr_Petrov52024-03-21.jpg
+"GET /media/Petr_Petrov52024-03-21.jpg HTTP/1.1" 404 179
+Not Found: /media/Petr_Petrov52024-03-21.jpg
+"GET /media/Petr_Petrov52024-03-21.jpg HTTP/1.1" 404 179

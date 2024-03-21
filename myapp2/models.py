@@ -1,5 +1,12 @@
 from django.db import models
 from django.utils import timezone
+from django.contrib.auth import get_user_model
+
+
+# class User(models.AbstractUser):
+#     first_name =''
+#     last_name =''
+#     email=''
 
 
 class User(models.Model):
@@ -37,6 +44,9 @@ class Author(models.Model):
     def full_name(self):
         return f'Полное имя {self.name} {self.lastname}'
 
+    def __str__(self):
+        return f'{self.name} {self.lastname}'
+
 
 class Post(models.Model):
     title = models.CharField(max_length=200)
@@ -67,6 +77,7 @@ class Product_ht(models.Model):
     description = models.TextField()
     quantity = models.IntegerField(max_length=8)
     date_created = models.DateTimeField(auto_now_add=True)
+    image = models.ImageField(upload_to='products/')
 
     # image = models.ImageField(upload_to='products/')
 
@@ -76,16 +87,26 @@ class Product_ht(models.Model):
 
 class Order_ht(models.Model):
     customer = models.ForeignKey(User_ht, on_delete=models.CASCADE)
-    total_price = models.DecimalField(max_digits=8, decimal_places=2,default=0)
+    total_price = models.DecimalField(max_digits=8, decimal_places=2, default=0)
     date_ordered = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return f'customer: {self.customer},  total_price:{self.total_price}, date_ordered:{self.date_ordered}'
+
 
 class order_ht_product_ht(models.Model):
     order = models.ForeignKey(Order_ht, on_delete=models.CASCADE)
     product = models.ForeignKey(Product_ht, on_delete=models.CASCADE)
     quantity = models.IntegerField(max_length=8)
     date_created = models.DateTimeField(auto_now_add=True)
+
     def __str__(self):
         return f'product: {self.product},  quantity:{self.quantity}, date_created:{self.date_created}'
+
+
+class Shooter(models.Model):
+    title = models.CharField(max_length=50)
+    image = models.ImageField(upload_to='media/')
+
+    def __str__(self):
+        return self.title
