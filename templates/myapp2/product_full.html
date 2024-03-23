@@ -1,0 +1,21 @@
+{% extends 'main_page.html' %}
+{% block title %}Подробности о продукте {{post.name}}{% endblock %}
+
+
+{% block content %}
+
+<h3>Продукт {{ post.name }}</h3>
+<p>Цена {{ post.price }}</p>
+<p>Описание {{ post.description }}</p>
+<p>Количество {{ post.quantity }}</p>
+<p>Дата добавления {{ post.date_created }}</p>
+
+
+<!--<p>{{ post.image }}</p>-->
+ <img src="{{ post.image}}"/>
+
+{% endblock %}
+
+
+</body>
+</html>

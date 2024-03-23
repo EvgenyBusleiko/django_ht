@@ -9,6 +9,10 @@ from django.views.generic import ListView, CreateView
 from django.urls import reverse_lazy
 
 
+def main_page(request):
+    return render(request, 'myapp2/main_page.html', {'title': 'Главная страница'})
+
+
 def hello(request):
     return HttpResponse("Hello World from function!")
 
@@ -64,20 +68,62 @@ def image_upload_view(request):
             # Get the current instance object to display in the template
             title = form.cleaned_data['title']
             image = form.cleaned_data['image']
-            fs = FileSystemStorage()
-            extention=image.name.split('.')[1]
 
-            filename = f'{title.replace(" ","_")}{datetime.now().date()}.{extention}'
+            fs = FileSystemStorage(location='media/')
+            extention = image.name.split('.')[1]
+
+            filename = f'{title.replace(" ", "_")}{datetime.now().date()}.{extention}'
             fs.save(filename, image)
             file_url = fs.url(filename)
+            context = {
+                'title': title,
+                'image': file_url,
+            }
+            shooter = Shooter.objects.create(title=title, image=file_url)
+            shooter.save()
             return render(request, 'myapp2/shooter.html', {'form': form, 'file_url': file_url})
     else:
         form = ShoterForm()
     return render(request, 'myapp2/shooter.html', {'form': form})
 
 
-class CreateShooterView(CreateView):  # новый
-    model = Shooter
-    form_class = ShoterForm
-    template_name = 'add_shooter.html'
-    success_url = reverse_lazy('shooter')
+def product_upload_view(request):
+    """Process images uploaded by users"""
+    if request.method == 'POST':
+        form = Product_htForm(request.POST, request.FILES)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            price = form.cleaned_data['price']
+            description = form.cleaned_data['description']
+            quantity = form.cleaned_data['quantity']
+            # date_created = form.cleaned_data['data']
+            image = form.cleaned_data['image']
+
+            fs = FileSystemStorage(location='media/')
+            extention = image.name.split('.')[1]
+
+            filename = f'{name.replace(" ", "_")}{datetime.now().date()}.{extention}'
+            fs.save(filename, image)
+            file_url = fs.url(filename)
+
+            product = Product_ht.objects.create(name=name, price=price, description=description, quantity=quantity,
+                                                # date_created=date_created,
+                                                image=file_url)
+            product.save()
+
+            return render(request, 'myapp2/add_product.html', {'form': form, 'file_url': file_url})
+    else:
+        form = Product_htForm()
+    return render(request, 'myapp2/add_product.html', {'form': form})
+
+
+def show_all_product(request):
+    product = Product_ht.objects.all()
+
+
+    return render(request, 'myapp2/show_all_product.html', {'posts': product})
+
+
+def product_full(request, post_id):
+    product = get_object_or_404(Product_ht, pk=post_id)
+    return render(request, 'myapp2/product_full.html', {'post': product})

@@ -1,0 +1,18 @@
+{% extends 'main_page.html' %}
+{% block title %}Список всех продуктов{% endblock %}
+
+
+{% block content %}
+
+<table>
+{% for post in posts %}
+<tr>
+<!--<td><a>{{post.name }} {{post.id}}</a>-->
+    <td><a href="{% url 'product_full' post.id %}">{{ post.name }}</a></td>
+
+</tr>
+{% endfor %}
+</table>
+{% endblock %}
+</body>
+</html>

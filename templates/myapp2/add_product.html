@@ -1,0 +1,17 @@
+{% extends 'main_page.html' %}
+{% block title %}Добавление нового товара{% endblock %}
+{% block content %}
+<form method="post" enctype="multipart/form-data">
+
+  {% csrf_token %}
+   {{ form.as_p }}
+  <button type="submit">Upload</button>
+</form>
+
+{% if file_url %}
+  <h3>Succesfully uploaded : {{form.title}}</h3>
+
+  <img src="{{ file_url}}"/>
+{% endif %}
+
+{% endblock %}

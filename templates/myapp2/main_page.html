@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>>{% block title %}ГЛАВНАЯ СТРАНИЦА{% endblock %}</title>
+    <div>
+        <a href='{% url "main_page" %}'>Главная страница</a>
+        <a href='{% url "add" %}'>Добавить новый продукт</a>
+        <a href='{% url "show_all_product" %}'>Показать все продукты</a>
+
+    </div>
+
+</head>
+<body>
+    {% block content %}
+    <img src="media/Евгений_Буслейко2024-03-23_qytLatC.png"/>
+    {% endblock %}
+</body>
+</html>

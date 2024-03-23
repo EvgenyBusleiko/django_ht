@@ -23,3 +23,7 @@ class Product(models.Model):
     @property
     def total_quantity(self):
         return sum(product.quantity for product in Product.objects.all())
+
+class Shooter(models.Model):
+    title =models.CharField(max_length=50)
+    image = models.ImageField()
