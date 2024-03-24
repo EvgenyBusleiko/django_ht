@@ -1,11 +1,12 @@
 from django.contrib import admin
-from .models import Author, Post, User
+from .models import Author, Post, User, Product_ht
 # Register your models here.
 
 # admin.site.register(Author)
 # admin.site.register(Post)
 # admin.site.register(User)
 
+# admin.site.register(Product_ht)
 
 @admin.register(Author)
 class AuthorAdmin (admin.ModelAdmin):
@@ -22,3 +23,11 @@ class PostAdmin (admin.ModelAdmin):
     search_fields = ['title',"author__name"]
     readonly_fields = ['views']
     list_editable = ["author","date"]
+
+@admin.register(Product_ht)
+class Product_ht(admin.ModelAdmin):
+    list_display = ['name', "price", "quantity", 'date_created']
+    list_filter = ["name", "price", 'quantity']
+    search_fields = ['name']
+    readonly_fields = ['date_created']
+
