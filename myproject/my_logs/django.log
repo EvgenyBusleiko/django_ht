@@ -6546,3 +6546,82 @@ Not Found: /media/media/%D0%9F%D0%B5%D0%BF%D1%81%D0%B82024-03-23.jpg
 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 "GET /admin/myapp2/product_ht/ HTTP/1.1" 200 88680
 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+Internal Server Error: /admin/myapp2/
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\busle\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET /admin/myapp2/ HTTP/1.1" 500 129688
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp2/ HTTP/1.1" 200 6301
+Not Found: /
+"GET / HTTP/1.1" 404 2820
+Not Found: /myapp2/
+"GET /myapp2/ HTTP/1.1" 404 4678
+"GET /myapp2/main_page/ HTTP/1.1" 200 499
+Not Found: /myapp2/main_page/media/Евгений_Буслейко2024-03-23_qytLatC.png
+"GET /myapp2/main_page/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE2024-03-23_qytLatC.png HTTP/1.1" 404 4945
+"GET /myapp2/main_page/ HTTP/1.1" 200 499
+Not Found: /myapp2/main_page/media/Евгений_Буслейко2024-03-23_qytLatC.png
+"GET /myapp2/main_page/media/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%91%D1%83%D1%81%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE2024-03-23_qytLatC.png HTTP/1.1" 404 4945
+"GET /myapp2/add/ HTTP/1.1" 200 1570
+"GET /myapp2/show_all_product/ HTTP/1.1" 200 19517
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\busle\PycharmProjects\pythonProject3\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
